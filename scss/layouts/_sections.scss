@@ -333,6 +333,7 @@
         transform: translateY(-50%);
         font-size: 4rem;
         color: rgba(255, 255, 255, 0.6);
+        cursor: pointer;
       }
 
       &-prev {
@@ -345,13 +346,20 @@
     }
 
     &-item {
-      display: none;
+      height: 0;
+      opacity: 0;
+      z-index: -1;
+      transform: translateY(2rem);
       background-color: $white;
       border-radius: 4px;
       overflow: hidden;
+      transition: all 0.7s ease;
 
       &-current {
-        display: block;
+        height: unset;
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(0);
       }
 
       &-banner {
