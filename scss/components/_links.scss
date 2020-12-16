@@ -1,0 +1,25 @@
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: solid 1px $white;
+  border-radius: 4px;
+
+  &-big {
+    font-size: 1.2rem;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  &-lightgreen {
+    background-color: $lightgreen;
+  }
+
+  &-lightblue {
+    background-color: $lightblue;
+  }
+
+  &-blue {
+    background-color: $darkblue;
+  }
+}

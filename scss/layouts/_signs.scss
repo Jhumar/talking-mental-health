@@ -1,0 +1,60 @@
+.signs-section {
+  padding: 8rem 0;
+  background-color: #f6f6f6;
+
+  .section-wrapper {
+    width: 70%;
+    margin: 0 auto;
+
+    h4 {
+      color: $black;
+      font-size: 1.5rem;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: $gray;
+      line-height: 1.5;
+      padding: 0 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .article-container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .article-wrapper {
+        flex-basis: 33.33%;
+        padding: 0 1rem;
+
+        .article-1 {
+          height: 300px;
+          background-color: $white;
+          border-radius: 4px;
+          overflow: hidden;
+          margin-bottom: 2rem;
+
+          .img-feature-wrapper {
+            .img-feature {
+              width: 100%;
+              height: 150px;
+            }
+          }
+        }
+
+        .img-feature-description {
+          padding: 2rem 1rem;
+        }
+      }
+    }
+
+    p {
+      color: $gray;
+      line-height: 1.5;
+      padding: 0 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
